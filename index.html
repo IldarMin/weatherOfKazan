@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="/css/master.css" media="screen" title="no title" charset="utf-8">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+  </head>
+  <body>
+    <div id="slideshow">
+
+        <div id="slideshow_head">
+            <div class="slide_head s1">Today, <span class="slide_head_m1"></span></div>
+            <div class="slide_head s2">Tomorrow, <span class="slide_head_m2"></span></div>
+            <div class="slide_head s3">After Tomorrow, <span class="slide_head_m3"></span></div>
+        </div>
+
+        <div id="slideshow_wrapper_head">
+          <div class="slide_wr_head s1 slide_wr_head_m1"></div>
+          <div class="slide_wr_head s2 slide_wr_head_m2"></div>
+          <div class="slide_wr_head s3 slide_wr_head_m3"></div>
+        </div>
+
+        <div id="slideshow_wrapper">
+            <div class="slide s1" id="s1">
+              <div class="">
+                <img class="slideshow_wrapper_fon" src="/images/fon.png" alt="" />
+                <img class="slideshow_wrapper_image slideshow_wrapper_image_m1" src="" alt="" />
+              </div>
+            </div>
+            <div class="slide s2" id="s2">
+              <div class="">
+                <img class="slideshow_wrapper_fon" src="/images/fon.png" alt="" />
+                <img class="slideshow_wrapper_image slideshow_wrapper_image_m2" src="" alt="" />
+              </div>
+            </div>
+            <div class="slide s3" id="s3">
+              <div class="">
+                <img class="slideshow_wrapper_fon" src="/images/fon.png" alt="" />
+                <img class="slideshow_wrapper_image slideshow_wrapper_image_m3" src="" alt="" />
+              </div>
+            </div>
+        </div>
+
+        <div id="slideshow_wrapper_footer">
+          <div class="slide_wr_footer s1"><span class="slide_wr_footer_m1"></span><img src="/images/eclipse.png" alt="" /></div>
+          <div class="slide_wr_footer s2"><span class="slide_wr_footer_m2"></span><img src="/images/eclipse.png" alt="" /></div>
+          <div class="slide_wr_footer s3"><span class="slide_wr_footer_m3"></span><img src="/images/eclipse.png" alt="" /></div>
+        </div>
+
+        <div id="slideshow_wrapper_city"></div>
+
+        <div id="slideshow_nav">
+           <a href=".s1" class="active">
+             <img class="slideshow_nav_img slideshow_nav_img_m1" src="" alt="/images/Clouds.svg" /><br>
+             <span class="slideshow_nav_m1"></span>
+           </a>
+           <a href=".s2">
+             <img class="slideshow_nav_img slideshow_nav_img_m2" src="" alt="/images/Clouds.svg" /><br>
+             <span class="slideshow_nav_m2"></span>
+           </a>
+           <a href=".s3">
+             <img class="slideshow_nav_img slideshow_nav_img_m3" src="" alt="/images/Clouds.svg" /><br>
+             <span class="slideshow_nav_m3"></span>
+           </a>
+        </div>
+</div>
+  </body>
+  <script src="/js/master.js" charset="utf-8"></script>
+</html>

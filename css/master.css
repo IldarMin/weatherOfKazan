@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Open Sans Regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Open Sans Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: Open Sans Semibold;
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+#slideshow {
+    margin: 0 auto;
+    width: 360px;
+    overflow: hidden;
+    height: 575px;
+    position: relative;
+}
+#slideshow_head{
+  width: 1080px;
+  height: 50px;
+  background-color: #3eb1df;
+  position: relative;
+}
+#slideshow_wrapper {
+    width: 1080px;
+    max-height: 408px;
+    position: absolute;
+    background-color: #21a5da;
+}
+#slideshow_wrapper_head {
+    width: 1080px;
+    height: 85px;
+    position: absolute;
+    z-index: 9;
+}
+#slideshow_wrapper_footer {
+    width: 1080px;
+    height: 160px;
+    position: absolute;
+    z-index: 99;
+    bottom: 160px;
+}
+#slideshow_wrapper_city {
+  position: absolute;
+  bottom: 160px;
+  left: 160px;
+  font-size: 19.05px;
+  font-family: "Open Sans Light";
+  color: #fff;
+
+}
+div.slide {
+    width: 360px;
+    height: 408px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+div.slide .slideshow_wrapper_image{
+  height: 120px;
+  margin-left: 123px;
+  margin-top: 90px;
+  border-radius: 60px;
+}
+div.slide .slideshow_wrapper_fon{
+  position: absolute;
+  margin-left: 74px;
+  margin-top: 40px;
+}
+div.slide_head {
+    width: 360px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 13.05px;
+    font-family: "Open Sans Regular";
+}
+div.slide_wr_head {
+    width: 360px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 85px;
+    color: white;
+    font-family: "Open Sans Light";
+    font-size: 24px;
+}
+div.slide_wr_footer {
+    width: 360px;
+    height: 160px;
+    float: left;
+    text-align: center;
+    line-height: 170px;
+    color: white;
+    font-size: 116px;
+    font-family: "Open Sans Light";
+}
+div.slide_wr_footer img{
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -3px;
+}
+#slideshow_nav {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+#slideshow_nav a {
+    float: left;
+    width: 120px;
+    height: 117px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #3eb1df;
+    text-align: center;
+    font-size: 10.05px;
+    font-family: "Open Sans Semibold";
+}
+#slideshow_nav a.active {
+    background-color: #1c9dd1;
+    color: #fff;
+    text-align: center;
+}
+#slideshow_nav img {
+    width: 75px;
+    margin-top: 10px;
+}
+@media (max-width: 780px) {
+  body{
+    background-color: #21a5da;
+  }
+}
